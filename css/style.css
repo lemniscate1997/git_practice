@@ -1,0 +1,246 @@
+body {
+    background-color: #fff;
+    color: #091E42;
+    font-size: 16px;
+    height: 100%;
+    min-height: 100%;
+    font-family: Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-style: normal;
+}
+
+.my-nav {
+    background-color: #fff;
+    padding: 10px 60px 0 60px;
+}
+
+svg {
+    margin-bottom: 16px;
+    vertical-align: bottom;
+}
+
+.nav-slogan {
+    color: #253858;
+    font-size: 9px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: block;
+    padding-left: 18px;
+    margin-bottom: -9px;
+}
+
+.nav-logo {
+    font-weight: 400;
+    color: #253858;
+    font-size: 30px;
+    margin-left: 1px;
+}
+
+.primary-icon {
+    font-weight: 400;
+    color: #2684ff;
+    font-size: 23px;
+    padding: 2px 7px 0 0;
+}
+
+.menu {
+    padding-left: -50px;
+    font-size: 1.09rem;
+    line-height: 1.11;
+}
+
+.menu li {
+    margin-right: 17px !important;
+}
+
+.menu a {
+    color: #0052CC !important;
+}
+
+.my-btn {
+    padding: 2px 12px 2px 14px;
+    font-weight: 500;
+    color: #0052CC;
+    border: 1px solid #0052CC;
+}
+
+.fill-btn {
+    font-weight: 500;
+    padding: 7px 15px;
+    font-size: 16px;
+}
+
+.blue-btn {
+    background-color: #0052CC;
+    color: #fff;
+}
+
+.item-container {
+    background-color: #F4F5F7;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.heading {
+    color: #253858;
+    font-size: 42px;
+}
+
+.heading-text {
+    padding-top: 8px;
+    color: #42526E;
+    font-size: 1.2rem;
+    letter-spacing: .3px;
+    line-height: 1.4;
+}
+
+.curve-container {
+    background-color: #F4F5F7;
+}
+
+.curve-container__curve {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+    display: block;
+}
+
+.curve-container__curve.curve-three path {
+    fill: #FFF;
+}
+
+.curve-item {
+    background-color: #fff;
+    padding: 040px;
+}
+
+.component__image {
+    flex-grow: 1;
+}
+
+.component--image-heading-textblock {
+    padding: 0 20px;
+}
+
+.component__heading-textblock h3 {
+    font-size: 21px;
+}
+
+.component--heading h5 {
+    font-size: 12px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.component--heading-textblock h1 {
+    color: #253858;
+    padding-top: 30px;
+}
+
+.component--heading-textblock h2 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #253858;
+    padding-top: 15px;
+}
+
+.component--heading-textblock p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #42526E;
+    padding-top: 20px;
+    line-height: 1.4;
+}
+
+.component--heading-textblock a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0052CC !important;
+    padding-top: 20px;
+}
+
+.component--link-button a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0052CC !important;
+    padding: 20px 0 0 20px;
+}
+
+.column__background {
+    background-color: #fff;
+    padding: 25px;
+}
+
+.component__heading-textblock h3 {
+    font-size: 23px;
+    font-weight: 500;
+    color: #253858;
+    padding-top: 20px;
+}
+
+.component__heading-textblock p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #42526E;
+    padding-top: 18px;
+    line-height: 1.4;
+}
+
+.main-footer {
+    color: #42526E;
+    background-color: #F4F5F7;
+}
+
+.component--heading h4 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #253858;
+    padding-top: 18px;
+    line-height: 1.4;
+}
+
+.component--heading p {
+    font-size: 16px;
+    font-weight: 350;
+    color: #42526E;
+    padding-top: 16px;
+    line-height: 1.6;
+}
+
+.component--link-button {
+    font-size: 14px;
+    font-weight: 350;
+    color: #42526E;
+    line-height: 1.6;
+}
+
+.target-form input[type="email"] {
+    height: 38px;
+    width: 420px;
+    border-top: 2px solid #c0c0c0;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.social-buttons ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-buttons li {
+    font-size: 32px;
+    padding: 0 5px;
+}
+
+.facebook {
+    color: #2a518c;
+}
+
+.twitter {
+    color: #84b4fd;
+}
