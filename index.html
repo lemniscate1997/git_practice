@@ -1,11 +1,385 @@
-<html>
-  <head>
-    <title>index file</title>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bitbucket | The Git solution for professional teams</title>
+    <link rel="icon" type="image/ico" href="images/logo/logo.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/server.js"></script>
-  </head>
-  <body>
-    <p>Hello user</p>
-    <p>first line</p>
-  </body>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg my-nav fixed-top ">
+        <i class="fab fa-bitbucket primary-icon"></i>
+        <a class="navbar-brand nav" href="#">
+            <span class="nav-slogan row">atlassian</span>
+            <span class="nav-logo row">Bitbucket</span>
+        </a>
+
+
+        <div class="collapse navbar-collapse pl-5" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Self-Hosted</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav ml-auto mr-2 menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log in</a>
+                </li>
+            </ul>
+            <form class="form-inline my-1 my-lg-0">
+                <button class="btn my-btn">Get started</button>
+            </form>
+        </div>
+    </nav>
+
+    <main class="mt-5">
+        <div class="container-fluid item-container">
+            <div class="row">
+                <div class="col col-md-8 offset-md-2 text-center">
+                    <div>
+                        <h1 class="heading">Built for professional teams </h1>
+                        <p class="heading-text">Bitbucket is more than just Git code management. Bitbucket gives teams
+                            one
+                            place to plan projects,
+                            collaborate on code, test, and deploy.</p>
+                    </div>
+                    <div class="pt-2">
+                        <a href="#" class="btn fill-btn blue-btn">
+                            Get started for free</a>
+                    </div>
+                    <div class="pt-4">
+                        <p>
+                            Or host it yourself with&nbsp;
+                            <a href="#"> Bitbucket Enterprise <i class="fas fa-arrow-right"></i></a>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="https://wac-cdn.atlassian.com/dam/jcr:10218a75-9e62-445d-b14c-55c8e5ea7aeb/00_HeroImage.png?cdnVersion=469"
+                            alt="Bitbucket pull request example" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="curve-container">
+            <svg xmlns="http://www.w3.org/2000/svg" class="curve-container__curve curve-three" viewBox="0 0 1440 68"
+                enable-background="new 0 0 1440 68">
+                <path d="m1622.3 1937.7c0 0-410.7 169.1-913.4 75.5-502.7-93.6-977.7 56.3-977.7 56.3v440h1891.1v-571.8"
+                    fill="#F4F5F7" transform="translate(0-1977)"></path>
+            </svg>
+            <div class="container-fluid pt-4 curve-container curve-item">
+                <div class="row flex-container reduced-row">
+                    <div class="col col-sm-6 col-md-4 text-center">
+                        <div class="component component--image-heading-textblock">
+                            <div class="component__image"> <img
+                                    src="https://wac-cdn.atlassian.com/dam/jcr:bc1f15f9-3b2e-4c30-9313-0ebd6175f18c/File%20Cabinet@2x.png?cdnVersion=469"
+                                    alt="File Cabinet Icon" class="component__image" style="height:140px;"> </div>
+                            <div class="component__heading-textblock pt-3">
+                                <h3>Free unlimited private repositories</h3>
+                                <p>Free for small teams under 5 and priced to scale with Standard ($2/user/mo) or
+                                    Premium ($5/user/mo) plans.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-sm-6 col-md-4 text-center">
+                        <div class="component component--image-heading-textblock">
+                            <div class="component__image"> <img
+                                    src="https://wac-cdn.atlassian.com/dam/jcr:cd3efc7d-0600-45f3-b24f-575114db5ce2/integration.png?cdnVersion=469"
+                                    alt="Jira-Trello Integration" class="component__image md-comfortable-bottom"
+                                    style="height:132px;"> </div>
+                            <div class="component__heading-textblock pt-3">
+                                <h3>Best-in-class Jira &amp; Trello integration</h3>
+                                <p>Keep your projects organized by creating Bitbucket branches right from Jira issues or
+                                    Trello cards.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-4 col-sm-6 offset-sm-3 offset-md-0 text-center">
+                        <div class="component component--image-heading-textblock">
+                            <div class="component__image"> <img
+                                    src="https://wac-cdn.atlassian.com/dam/jcr:2d6be396-6b47-47b3-b66f-258d933e9df3/continuous-delivery.png?cdnVersion=469"
+                                    alt="Icon" class="component__image" style="height:140px;"> </div>
+                            <div class="component__heading-textblock pt-3">
+                                <h3>Built-in Continuous <br>Delivery</h3>
+                                <p>Build, test and deploy with integrated CI/CD. Benefit from configuration as code and
+                                    fast feedback loops.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid px-5">
+            <div class="row reduced-row px-3">
+                <div class="col col-lg-8 text-left">
+                    <div class="component pt-2 component--image hide-xs hide-sm"> <img
+                            src="https://wac-cdn.atlassian.com/dam/jcr:2ed4ef04-d2b2-4e33-b5eb-bf439d1bdcc9/01_CodeCollaboration.png?cdnVersion=469"
+                            alt="Bitbucket pull request comment" class="img-fluid"> </div>
+                </div>
+                <div class="col col-lg-4 xs-none-top">
+                    <div class="component component--heading" style="padding:24px 0px 0px;">
+                        <h5 class="eyebrows heading">Code Collaboration</h5>
+                    </div>
+                    <div class="component component--heading-textblock text-oversized">
+                        <h2>Build quality software with code review</h2>
+                        <p>Approve code review more efficiently with pull requests. Create a merge checklist with
+                            designated approvers and hold discussions right in the source code with inline comments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid px-5 pt-5">
+            <div class="row reduced-row px-2 pt-3">
+                <div class="col col-lg-4 xs-none-top">
+                    <div class="component component--heading" style="padding:24px 0px 0px;">
+                        <h5 class="eyebrows heading">Continuous Delivery</h5>
+                    </div>
+                    <div class="component component--heading-textblock text-oversized">
+                        <h2>Deploy often with built-in continuous delivery</h2>
+                        <p>Bitbucket Pipelines with Deployments lets you build, test and deploy with integrated CI/CD.
+                            Benefit from configuration as code and fast feedback loops.</p>
+                        <a>Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col col-lg-8 text-left">
+                    <div class="component pt-2 component--image hide-xs hide-sm"> <img
+                            src="https://wac-cdn.atlassian.com/dam/jcr:bb78c98b-6690-42d1-8bfd-bfc4069ead3b/02_ContinuousDelivery.png?cdnVersion=469"
+                            alt="Bitbucket pull request comment" class="img-fluid"> </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid px-5 py-5">
+            <div class="row reduced-row px-2 pt-3">
+                <div class="col col-lg-8 text-left">
+                    <div class="component pt-2 component--image hide-xs hide-sm"> <img
+                            src="https://wac-cdn.atlassian.com/dam/jcr:45c6a731-7f0d-4d21-b1c2-81445edbd9ca/03_Security.png?cdnVersion=469"
+                            alt="Bitbucket pull request comment" class="img-fluid"> </div>
+                </div>
+                <div class="col col-lg-4 xs-none-top">
+                    <div class="component component--heading" style="padding:24px 0px 0px;">
+                        <h5 class="eyebrows heading">Security</h5>
+                    </div>
+                    <div class="component component--heading-textblock text-oversized">
+                        <h2>Secure your workflow</h2>
+                        <p>Know your code is secure in the Cloud with IP whitelisting and required 2-step verification.
+                            Restrict access to certain users, and control their actions with branch permissions and
+                            merge checks for quality code.</p>
+                        <a>Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid item-container">
+            <div class="row flex-container">
+                <div class="col pt-2 col-md-6 offset-md-3 text-center">
+                    <div class="component component--heading-textblock text-oversized">
+                        <h1 class="h1 heading">New to Git?</h1>
+                        <p>No problem. We have resources to get you up to speed, quickly.</p>
+                    </div>
+                </div>
+                <div class="col pt-3 col-lg-4 col-md-5 col-xs-10 offset-lg-2 offset-md-1 offset-xs-1">
+                    <div class="column__background">
+                        <div class="component component--image-heading-textblock">
+                            <div class="component__image"> <img
+                                    src="https://wac-cdn.atlassian.com/dam/jcr:8da54c66-2109-41df-af77-b575b30e2edc/Git@2x.png?cdnVersion=469"
+                                    alt="Git icon" class="component__image" style="height:90px;"> </div>
+                            <div class="component__heading-textblock">
+                                <h3>Learn Git with interactive tutorials</h3>
+                                <p>Make Bitbucket your Git sandbox with tutorials that bring you up to speed with Git
+                                    and help you build effective workflows.</p>
+                            </div>
+                        </div>
+                        <div class="component component--link-button">
+                            <a href="http://www.atlassian.com/git" class="component__link link-arrow">
+                                Learn more <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pt-3 col-lg-4 col-md-5 col-xs-10">
+                    <div class="column__background">
+                        <div class="component component--image-heading-textblock">
+                            <div class="component__image">
+                                <img src="https://wac-cdn.atlassian.com/dam/jcr:81b15cde-be2e-4f4a-8af7-9436f4a1b431/Sourcetree-icon-blue.svg?cdnVersion=469"
+                                    alt="Git icon" class="component__image" style="height:90px;"> </div>
+                            <div class="component__heading-textblock">
+                                <h3>Download Sourcetree, our free Git GUI.</h3>
+                                <p>Say goodbye to the command line - Sourcetree simplifies how you interact with your
+                                    Git repositories so you can focus on coding.</p>
+                            </div>
+                        </div>
+                        <div class="component component--link-button">
+                            <a href="http://www.atlassian.com/git" class="component__link link-arrow">
+                                Learn more <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid item-container">
+            <div class="row flex-container">
+                <div class="col pt-2 col-lg-8 col-md-10 offset-lg-2 offset-md-1 text-center">
+                    <div class="component component--heading-textblock">
+                        <h1 class="h1 heading">Integrations: Bitbucket, but batter</h1>
+                        <p>Start with Bitbucket, then bring in the tools you already use to build better software.</p>
+                    </div>
+                </div>
+                <div class="col pl-5 pt-3 col-sm-6 col-md-4 text-left">
+                    <div class="">
+                        <div class="component component--image-heading-textblock">
+                            <div class="component__image"> <img
+                                    src="https://wac-cdn.atlassian.com/dam/jcr:cd3efc7d-0600-45f3-b24f-575114db5ce2/integration.png?cdnVersion=469"
+                                    alt="Git icon" class="component__image" style="height:90px;"> </div>
+                            <div class="component__heading-textblock">
+                                <h3>Jira Software</h3>
+                                <p>Improve efficiency by connecting branches, commits, and pull requests to Jira
+                                    Software issues.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pl-3 pt-3 col-sm-6 col-md-4 text-left">
+                    <div>
+                        <div class="component component--image-heading-textblock">
+                            <div class="component__image">
+                                <img src="https://wac-cdn.atlassian.com/dam/jcr:de9d5bd9-938b-4be9-a9d8-ab38bb104600/Integration%20Puzzle@2x.png?cdnVersion=469"
+                                    alt="Git icon" class="component__image" style="height:90px;"> </div>
+                            <div class="component__heading-textblock">
+                                <h3>Connect framework</h3>
+                                <p>Customize Bitbucket your way with apps that embed right in Bitbucket’s UI, built with
+                                    Bitbucket Connect.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pl-2 pr-5 pt-3 col-sm-6 col-md-4 text-left">
+                    <div>
+                        <div class="component component--image-heading-textblock">
+                            <div class="component__image">
+                                <img src="https://wac-cdn.atlassian.com/dam/jcr:dc2b41b1-bf13-42c7-a085-cab4ea8f84f2/Webhooks@2x.png?cdnVersion=469"
+                                    alt="Git icon" class="component__image" style="height:90px;"> </div>
+                            <div class="component__heading-textblock">
+                                <h3>Trigger webhooks</h3>
+                                <p>Integrate easily with systems you already use in your day-to-day using Bitbucket
+                                    webhooks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pl-5 pt-3 col-md-12 col-xs-8 offset-md-0 offset-xs-3">
+                    <div class="component component--link-button">
+                        <a href="https://bitbucket.org/product/integrations" class="component__link link-arrow"> See all
+                            integrations <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="curve-container">
+            <svg xmlns="http://www.w3.org/2000/svg" class="curve-container__curve curve-three" viewBox="0 0 1440 68"
+                enable-background="new 0 0 1440 68">
+                <path d="m1622.3 1937.7c0 0-410.7 169.1-913.4 75.5-502.7-93.6-977.7 56.3-977.7 56.3v440h1891.1v-571.8"
+                    fill="#F4F5F7" transform="translate(0-1977)"></path>
+            </svg>
+            <div class="row flex-container curve-item">
+                <div class="col pt-3 col-lg-6 col-md-8 offset-lg-3 offset-md-2 text-center">
+                    <div class="component component--heading-textblock text-oversized">
+                        <h2>More than 1 million teans and 10 million developer love Bitbucket</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container-fluid">
+            <div class="container-fluid pl-5 pt-5">
+                <div class="row flex-container reduced-row">
+                    <div class="col col-md-3">
+                        <div class="component pb-2 component--heading">
+                            <h4 class="heading">Bitbucket</h4>
+                        </div>
+                        <div class="component component--link-button"> Blog </div>
+                        <div class="component component--link-button"> Bitbucket writing program </div>
+                        <div class="component component--link-button"> API </div>
+                        <div class="component component--link-button"> Site status </div>
+                    </div>
+                    <div class="col col-md-3">
+                        <div class="component pb-2 component--heading">
+                            <h4 class="heading">Resources</h4>
+                        </div>
+                        <div class="component component--link-button"> Technical support </div>
+                        <div class="component component--link-button"> Documentation </div>
+                        <div class="component component--link-button"> Plans &amp; pricing </div>
+                        <div class="component component--link-button"> What is Version Control? </div>
+                    </div>
+                    <div class="col column-md-6">
+                        <div class="component component--heading">
+                            <h4>Connect with us</h4>
+                            <p>Sign up for Git articles and resources:</p>
+                        </div>
+                        <div class="component">
+                            <form class="target-form">
+                                <div class="pr-3 d-inline-flex">
+                                    <input type="email" placeholder="Email address" aria-required="true">
+                                </div>
+                                <div class="d-inline-flex">
+                                    <input type="submit" value="Subscribe" class="btn btn-outline-primary">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="pt-4 pr-5 text-right">
+                            <div class="d-inline-flex">Connect with Bitbucket</div>
+                            <div class="social-buttons d-inline-flex">
+                                <ul>
+                                    <li class="facebook">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </li>
+                                    <li class="twitter">
+                                        <i class="fab fa-twitter"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>
